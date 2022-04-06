@@ -1,0 +1,187 @@
+-----------------------------------------------------------------------nrlmf-nr
+Optimal parameter setting:
+
+
+allone
+AUC    Optimal parameter setting:
+Dataset:nr CVS: 1
+Model: NRLMF, c:5, K1:5, K2:5, r:100, lambda_d:1.0, lambda_t:1.0, alpha:0.25, beta:0.5, theta:0.25, max_iter:100
+auc: 0.900076, aupr: 0.545878, auc_conf:0.017288, aupr_conf:0.052420
+AUPR    Optimal parameter setting:
+Dataset:nr CVS: 1
+Model: NRLMF, c:5, K1:5, K2:5, r:100, lambda_d:1.0, lambda_t:1.0, alpha:2.0, beta:0.25, theta:0.25, max_iter:100
+auc: 0.887488, aupr: 0.557580, auc_conf:0.018508, aupr_conf:0.049296
+
+
+Tanimoto
+AUC    Optimal parameter setting:
+Dataset:nr CVS: 1
+Model: NRLMF, c:5, K1:5, K2:5, r:100, lambda_d:0.03125, lambda_t:0.03125, alpha:0.03125, beta:0.0625, theta:0.125, max_iter:100
+auc: 0.950139, aupr: 0.729433, auc_conf:0.010057, aupr_conf:0.036415
+AUPR    Optimal parameter setting:
+Dataset:nr CVS: 1
+Model: NRLMF, c:5, K1:5, K2:5, r:50, lambda_d:0.5, lambda_t:0.5, alpha:0.25, beta:0.5, theta:0.125, max_iter:100
+auc: 0.948826, aupr: 0.754485, auc_conf:0.010709, aupr_conf:0.032611
+
+
+Dice
+AUC    Optimal parameter setting:
+Dataset:nr CVS: 1
+Model: NRLMF, c:5, K1:5, K2:5, r:100, lambda_d:0.25, lambda_t:0.25, alpha:0.0625, beta:0.125, theta:1.0, max_iter:100
+auc: 0.949701, aupr: 0.736462, auc_conf:0.009953, aupr_conf:0.035577
+AUPR    Optimal parameter setting:
+Dataset:nr CVS: 1
+Model: NRLMF, c:5, K1:5, K2:5, r:100, lambda_d:0.5, lambda_t:0.5, alpha:0.25, beta:0.5, theta:0.25, max_iter:100
+auc: 0.947882, aupr: 0.751808, auc_conf:0.010673, aupr_conf:0.032294
+
+
+Cosine
+AUC    Optimal parameter setting:
+Dataset:nr CVS: 1
+Model: NRLMF, c:5, K1:5, K2:5, r:50, lambda_d:0.03125, lambda_t:0.03125, alpha:0.03125, beta:0.125, theta:0.125, max_iter:100
+auc: 0.941571, aupr: 0.730203, auc_conf:0.014511, aupr_conf:0.038474
+AUPR    Optimal parameter setting:
+Dataset:nr CVS: 1
+Model: NRLMF, c:5, K1:5, K2:5, r:100, lambda_d:0.5, lambda_t:0.5, alpha:0.25, beta:0.5, theta:0.25, max_iter:100
+auc: 0.940157, aupr: 0.747795, auc_conf:0.014694, aupr_conf:0.034334
+
+
+-----------------------------------------------------------------------NetLapRLS-gpcr
+
+Optimal parameter setting:
+
+allone
+AUC    Optimal parameter setting:
+Dataset:gpcr CVS: 1
+Model: NetLapRLS, gamma_d:100.0, gamma_t:100.0, beta_d:0.01, beta_t:0.01
+auc: 0.906796, aupr: 0.603050, auc_conf:0.006456, aupr_conf:0.016479
+AUPR    Optimal parameter setting:
+Dataset:gpcr CVS: 1
+Model: NetLapRLS, gamma_d:10.0, gamma_t:10.0, beta_d:0.0001, beta_t:0.0001
+auc: 0.902200, aupr: 0.606560, auc_conf:0.006938, aupr_conf:0.015297
+
+Tanimoto
+AUC    Optimal parameter setting:
+Dataset:gpcr CVS: 1
+Model: NetLapRLS, gamma_d:10.0, gamma_t:10.0, beta_d:1e-06, beta_t:1e-06
+auc: 0.913630, aupr: 0.615777, auc_conf:0.006640, aupr_conf:0.015372
+AUPR    Optimal parameter setting:
+Dataset:gpcr CVS: 1
+Model: NetLapRLS, gamma_d:10.0, gamma_t:10.0, beta_d:1e-06, beta_t:1e-06
+auc: 0.913630, aupr: 0.615777, auc_conf:0.006640, aupr_conf:0.015372
+
+
+Dice
+AUC    Optimal parameter setting:
+Dataset:gpcr CVS: 1
+Model: NetLapRLS, gamma_d:100.0, gamma_t:100.0, beta_d:0.1, beta_t:0.1
+auc: 0.911303, aupr: 0.597017, auc_conf:0.006467, aupr_conf:0.016579
+AUPR    Optimal parameter setting:
+Dataset:gpcr CVS: 1
+Model: NetLapRLS, gamma_d:10.0, gamma_t:10.0, beta_d:1e-06, beta_t:1e-06
+auc: 0.910846, aupr: 0.613304, auc_conf:0.006662, aupr_conf:0.015341
+
+
+Cosine
+AUC    Optimal parameter setting:
+Dataset:gpcr CVS: 1
+Model: NetLapRLS, gamma_d:100.0, gamma_t:100.0, beta_d:0.1, beta_t:0.1
+auc: 0.911215, aupr: 0.597578, auc_conf:0.006458, aupr_conf:0.016511
+AUPR    Optimal parameter setting:
+Dataset:gpcr CVS: 1
+Model: NetLapRLS, gamma_d:10.0, gamma_t:10.0, beta_d:1e-06, beta_t:1e-06
+auc: 0.910593, aupr: 0.613106, auc_conf:0.006668, aupr_conf:0.015355
+
+-----------------------------------------------------------------------blmnii-e
+
+
+Optimal parameter setting:
+
+allone
+AUC    Optimal parameter setting:
+Dataset:e CVS: 1
+Model:BLMNII, alpha:0.5, gamma:1.0, sigma:1.0, avg:False
+auc: 0.977923, aupr: 0.586536, auc_conf:0.001710, aupr_conf:0.014129
+AUPR    Optimal parameter setting:
+Dataset:e CVS: 1
+Model:BLMNII, alpha:1.0, gamma:1.0, sigma:1.0, avg:False
+auc: 0.953238, aupr: 0.697922, auc_conf:0.002526, aupr_conf:0.008707
+
+Tanimoto
+AUC    Optimal parameter setting:
+Dataset:e CVS: 1
+Model:BLMNII, alpha:0.6000000000000001, gamma:1.0, sigma:1.0, avg:False
+auc: 0.978478, aupr: 0.602690, auc_conf:0.001758, aupr_conf:0.014841
+AUPR    Optimal parameter setting:
+Dataset:e CVS: 1
+Model:BLMNII, alpha:0.9, gamma:1.0, sigma:1.0, avg:False
+auc: 0.972119, aupr: 0.756796, auc_conf:0.002673, aupr_conf:0.010810
+
+
+Dice
+AUC    Optimal parameter setting:
+Dataset:e CVS: 1
+Model:BLMNII, alpha:0.7000000000000001, gamma:1.0, sigma:1.0, avg:False
+auc: 0.977764, aupr: 0.607980, auc_conf:0.001814, aupr_conf:0.013740
+AUPR    Optimal parameter setting:
+Dataset:e CVS: 1
+Model:BLMNII, alpha:1.0, gamma:1.0, sigma:1.0, avg:False
+auc: 0.969457, aupr: 0.737294, auc_conf:0.002353, aupr_conf:0.008634
+
+
+Cosine
+AUC    Optimal parameter setting:
+Dataset:e CVS: 1
+Model:BLMNII, alpha:0.7000000000000001, gamma:1.0, sigma:1.0, avg:False
+auc: 0.977368, aupr: 0.605514, auc_conf:0.001839, aupr_conf:0.013687
+AUPR    Optimal parameter setting:
+Dataset:e CVS: 1
+Model:BLMNII, alpha:1.0, gamma:1.0, sigma:1.0, avg:False
+auc: 0.968705, aupr: 0.734799, auc_conf:0.002393, aupr_conf:0.008664
+
+-----------------------------------------------------------------------wnngip-ic
+
+
+Optimal parameter setting:
+
+allone
+AUC    Optimal parameter setting:
+Dataset:ic CVS: 1
+Model: RLSWNN, T:0.7000000000000001, sigma:1, alpha:0.4, gamma:1.0
+auc: 0.930835, aupr: 0.626308, auc_conf:0.012303, aupr_conf:0.050343
+AUPR    Optimal parameter setting:
+Dataset:ic CVS: 1
+Model: RLSWNN, T:0.1, sigma:1, alpha:0.30000000000000004, gamma:1.0
+auc: 0.923106, aupr: 0.702152, auc_conf:0.011984, aupr_conf:0.050604
+
+Tanimoto
+AUC    Optimal parameter setting:
+Dataset:ic CVS: 1
+Model: RLSWNN, T:0.7000000000000001, sigma:1, alpha:0.9, gamma:1.0
+auc: 0.956678, aupr: 0.704214, auc_conf:0.003438, aupr_conf:0.017592
+AUPR    Optimal parameter setting:
+Dataset:ic CVS: 1
+Model: RLSWNN, T:0.1, sigma:1, alpha:0.9, gamma:1.0
+auc: 0.953147, aupr: 0.770074, auc_conf:0.003693, aupr_conf:0.015737
+
+
+Dice
+AUC    Optimal parameter setting:
+Dataset:ic CVS: 1
+Model: RLSWNN, T:0.8, sigma:1, alpha:1.0, gamma:1.0
+auc: 0.952185, aupr: 0.631385, auc_conf:0.003483, aupr_conf:0.017417
+AUPR    Optimal parameter setting:
+Dataset:ic CVS: 1
+Model: RLSWNN, T:0.1, sigma:1, alpha:1.0, gamma:1.0
+auc: 0.947171, aupr: 0.738498, auc_conf:0.003732, aupr_conf:0.014198
+
+
+Cosine
+AUC    Optimal parameter setting:
+Dataset:ic CVS: 1
+Model: RLSWNN, T:0.7000000000000001, sigma:1, alpha:1.0, gamma:1.0
+auc: 0.954228, aupr: 0.677880, auc_conf:0.003770, aupr_conf:0.015631
+AUPR    Optimal parameter setting:
+Dataset:ic CVS: 1
+Model: RLSWNN, T:0.1, sigma:1, alpha:1.0, gamma:1.0
+auc: 0.949234, aupr: 0.734422, auc_conf:0.004020, aupr_conf:0.013964
