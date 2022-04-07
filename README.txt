@@ -17,7 +17,7 @@ Joint NTU-UBC Research Centre of Excellence in Active Living for Elderly (LILY),
 https://github.com/stephenliu0423/PyDTI
 -----------------------------------------------------------------------------------
 Datasets:
-
+Datasets are available at https://drive.google.com/file/d/1OfXU2QZhjb_TP8GdxZT3otDjGQQA0JZr/view?usp=sharing.
 The dataset folder contains all the information about the four gold standard datasets:
 nr (Nuclear Receptors), e(Enzymes), gpcr(G-Protein Coupled Receptors) and ic(Ion Channels). 
 For example, the interaction matrices of e and nr datasets are stored as e_admat_dgc.txt and 
